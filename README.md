@@ -30,8 +30,8 @@ Users should be able to:
 ![](/images/Screenshot%202022-06-28.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-solution-zSJfl6LThR]
+- Live Site URL: [https://resonant-praline-5435ba.netlify.app/]
 
 ## My process
 I started making the HTML structure and once I have done that I looked for the styles (palette color, font-family). I tried to make the component as close as posible, I first starde with the desktop design and then mobile.
@@ -50,6 +50,6 @@ I'm going to keep focusing in frotend projects in order to my goal to become a f
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/franklinjpt)
-- Twitter - [@yourusername](https://www.twitter.com/franklin_jpt)
+- Frontend Mentor - [@franklinjpt](https://www.frontendmentor.io/profile/franklinjpt)
+- Twitter - [@franklin_jpt](https://www.twitter.com/franklin_jpt)
 
