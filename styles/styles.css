@@ -80,7 +80,8 @@ body {
   color: hsl(0, 0%, 100%);
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
-  padding: 12px 54px;
+  padding: 12px;
+  width: 100%;
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -90,4 +91,44 @@ body {
 }
 button svg{
   margin-right: 7px;
+}
+
+@media (max-width: 430px) {
+  .component {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .component .preview,
+  .component .details{
+    width: 91%;
+    height: 49%;
+  }
+
+  .container .component .preview{
+    height: 228px;
+  }
+
+  .preview img {
+    content: url('/images/image-product-mobile.jpg');
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-end-start-radius: 0;
+  }
+  .details {
+    border-top-right-radius: 0;
+    border-end-end-radius:  10px;
+    border-end-start-radius: 10px;
+  }
+
+  .details .description{
+    line-height: 1.7;
+    margin-bottom: 40px;
+  }
+  .details button{
+    width: 100%;
+  }
 }
